@@ -28,6 +28,6 @@ void print_triangle(int leftCol, int size)
 //Prints an arrow with a triangle and square combined with given dimensions
 void print_arrow(int triLeftCol, int triSize, int sqLeftCol, int sqSize)
 {
-  //print_triangle(triLeftCol, triSize);
-  //print_square(sqLeftCol, sqSize);
+  print_triangle(triLeftCol, triSize);
+  print_square(sqLeftCol, sqSize);
 }
